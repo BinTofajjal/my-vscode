@@ -36,3 +36,4 @@
 
 1. Fira Code - https://github.com/tonsky/FiraCode/releases/tag/6.2
 2. Operator Mono - Google it as it's a paid font
+3. FuraMono Nerd Font - https://www.nerdfonts.com/font-downloads

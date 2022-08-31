@@ -1,0 +1,34 @@
+//=== More will be added time to time ===//
+
+{
+  "Print to console": {
+    "scope": "javascript,typescript",
+    "prefix": "cl",
+    "body": ["console.log($1);"],
+    "description": "Log output to console"
+  },
+  "Get elementsby ID": {
+    "scope": "javascript,typescript",
+    "prefix": "geti",
+    "body": ["document.getElementById('$1')"],
+    "description": "Get elementsby ID"
+  },
+  "Get elementsby Class": {
+    "scope": "javascript,typescript",
+    "prefix": "getc",
+    "body": ["document.getElementsByClassName('$1')"],
+    "description": "Get elementsby Class"
+  },
+  "Get querySelectorAll": {
+    "scope": "javascript,typescript",
+    "prefix": "getqa",
+    "body": ["document.getElementsByClassName('$1')"],
+    "description": "Get querySelectorAll"
+  },
+  "Get querySelector": {
+    "scope": "javascript,typescript",
+    "prefix": "getq",
+    "body": ["document.getElementsByClassName('$1')"],
+    "description": "Get querySelectorAll"
+  }
+}

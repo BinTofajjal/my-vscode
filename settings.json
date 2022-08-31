@@ -10,25 +10,17 @@
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "liveServer.settings.donotVerifyTags": true,
   "git.enableSmartCommit": true,
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
   "liveServer.settings.donotShowInfoMsg": true,
   "tailwindCSS.emmetCompletions": true,
   "editor.fontFamily": "Fira Code, Operator Mono",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "workbench.startupEditor": "none",
-  "terminal.integrated.fontSize": 13,
-  "debug.console.fontFamily": "FuraMono Nerd Font, Operator Mono Light",
+  "debug.console.fontFamily": "FuraMono Nerd Font, Operator Mono",
   "debug.console.fontSize": 13,
-  "terminal.integrated.fontFamily": "FuraMono Nerd Font, Operator Mono Light",
   "prettier.singleQuote": true,
   "prettier.arrowParens": "avoid",
   "files.exclude": {},
-  "workbench.colorCustomizations": {
-    "editorCursor.foreground": "#ffff00",
-    "terminalCursor.foreground": "#ffff00"
-  },
 
   // Config For Custom CSS and JS Loader Extention
 
@@ -76,19 +68,19 @@
       "backgroundColor": "#e74c3c"
     },
     {
-      "text": "//===",
-      "color": "rgba(255, 255, 255, 0.14)",
-      "backgroundColor": "rgba(255, 255, 255, 0.14)"
-    },
-    {
-      "text": "===//",
-      "color": "rgba(255, 255, 255, 0.14)",
-      "backgroundColor": "rgba(255, 255, 255, 0.14)"
-    },
-    {
       "text": "TODO",
       "color": "#333",
       "backgroundColor": "#2ecc71"
+    },
+    {
+      "text": "//===",
+      "color": "#ffffff24",
+      "backgroundColor": "#ffffff24"
+    },
+    {
+      "text": "===//",
+      "color": "#ffffff24",
+      "backgroundColor": "#ffffff24"
     }
   ],
 
@@ -96,5 +88,38 @@
 
   "editor.linkedEditing": true,
   "editor.cursorBlinking": "expand",
-  "workbench.productIconTheme": "fluent-icons"
+  "workbench.productIconTheme": "fluent-icons",
+  "editor.codeLensFontFamily": "Fira Code, Operator Mono",
+
+  //terminal
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontFamily": "FuraMono Nerd Font",
+  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+  "workbench.iconTheme": "vscode-icons",
+
+  // terminal customization
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#ffff00",
+    "terminalCursor.foreground": "#ffff00",
+    "terminal.background": "#1D2021",
+    // "terminal.foreground": "#A89984",
+    // "terminalCursor.background": "#A89984",
+    "terminal.ansiBlack": "#1D2021",
+    "terminal.ansiBlue": "#0D6678",
+    // "terminal.ansiBrightBlack": "#665C54",
+    "terminal.ansiBrightBlue": "#0D6678",
+    "terminal.ansiBrightCyan": "#8BA59B",
+    "terminal.ansiBrightGreen": "#86ff5a",
+    "terminal.ansiBrightMagenta": "#8F4673",
+    "terminal.ansiBrightRed": "#FB543F",
+    // "terminal.ansiBrightWhite": "#FDF4C1",
+    "terminal.ansiBrightYellow": "#FAC03B",
+    "terminal.ansiCyan": "#8BA59B",
+    "terminal.ansiGreen": "#86ff5a",
+    "terminal.ansiMagenta": "#8F4673",
+    "terminal.ansiRed": "#FB543F",
+    "terminal.ansiWhite": "#A89984",
+    "terminal.ansiYellow": "#FAC03B"
+  }
 }

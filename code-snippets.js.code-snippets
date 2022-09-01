@@ -22,13 +22,13 @@
   "Get querySelectorAll": {
     "scope": "javascript,typescript",
     "prefix": "getqa",
-    "body": ["document.getElementsByClassName('$1')"],
+    "body": ["document.querySelector('$1')"],
     "description": "Get querySelectorAll"
   },
   "Get querySelector": {
     "scope": "javascript,typescript",
     "prefix": "getq",
-    "body": ["document.getElementsByClassName('$1')"],
-    "description": "Get querySelectorAll"
+    "body": ["document.querySelector('$1')"],
+    "description": "Get querySelecto"
   }
 }

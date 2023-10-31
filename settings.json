@@ -94,7 +94,7 @@
   //terminal
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontWeight": "normal",
-  "terminal.integrated.fontFamily": "FuraMono Nerd Font",
+  "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
   "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
   "workbench.iconTheme": "vscode-icons",
 
